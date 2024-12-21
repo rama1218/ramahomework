@@ -1,0 +1,173 @@
+@startuml
+
+class Booking {
+    + customer : String
+    + booking_id : String
+    + checkInDateTime : Date
+    + checkOutDateTime : Date
+    + bookingType : String
+    + person : int
+    + roomsFare : double
+    + getBooking_id() : String
+    + setBooking_id(id : String) : void
+    + getBookingType() : String
+    + setBookingType(type : String) : void
+    + addRoom() : void
+    + removeRoom() : void
+    + getPerson() : int
+    + setPerson(person : int) : void
+    + getRooms() : List
+    + getRoomsFare() : double
+    + getCustomer() : String
+    + setCustomer(customer : String) : void
+    + setCheckOutDateTime(date : Date) : void
+    + getCheckInDateTime() : Date
+    + setCheckInDateTime(date : Date) : void
+    + getCheckOutDateTime() : Date
+    + setCheckOutDateTime(date : Date) : void
+}
+
+class ExtraOrders {
+    + order_id : String
+    + customer_id : String
+    + dateTime : Date
+    + quantity : int
+    + item : String
+    + getOrder_id() : String
+    + setOrder_id(id : String) : void
+    + getCustomer_id() : String
+    + setCustomer_id(id : String) : void
+    + getDateTime() : Date
+    + setDateTime(date : Date) : void
+    + getQuantity() : int
+    + setQuantity(quantity : int) : void
+    + getItem() : String
+    + setItem(item : String) : void
+    + calculateTotal() : double
+}
+
+class Food {
+    + food_id : String
+    + name : String
+    + price : double
+    + getFood_id() : String
+    + setFood_id(id : String) : void
+    + getName() : String
+    + setName(name : String) : void
+    + getPrice() : double
+    + setPrice(price : double) : void
+}
+
+class Item {
+    + item_id : String
+    + item_name : String
+    + description : String
+    + price : double
+    + getItem_id() : String
+    + setItem_id(id : String) : void
+    + getItem_name() : String
+    + setItem_name(name : String) : void
+    + getDescription() : String
+    + setDescription(desc : String) : void
+    + getPrice() : double
+    + setPrice(price : double) : void
+}
+
+class Order {
+    + getOrderId() : String
+    + setOrderId(id : String) : void
+    + getBookingId() : String
+    + setBookingId(id : String) : void
+    + getFoodItem() : String
+    + setFoodItem(item : String) : void
+    + getPrice() : double
+    + setPrice(price : double) : void
+    + getQuantity() : int
+    + setQuantity(quantity : int) : void
+    + getTotal() : double
+    + setTotal(total : double) : void
+}
+
+class Payment {
+    + booking : Booking
+    + payment_date : Date
+    + payment_method : String
+    + hasDiscount : boolean
+    + discount : double
+    + getBooking() : Booking
+    + setBooking(booking : Booking) : void
+    + getPayment_date() : Date
+    + setPayment_date(date : Date) : void
+    + getPayment_method() : String
+    + setPayment_method(method : String) : void
+    + isHasDiscount() : boolean
+    + setHasDiscount(hasDiscount : boolean) : void
+    + getDiscount() : double
+    + setDiscount(discount : double) : void
+    + calculateTotalBill() : double
+}
+
+class Room {
+    + room_id : String
+    + room_no : String
+    + bed_number : int
+    + hasTV : boolean
+    + hasWIFI : boolean
+    + hasGizer : boolean
+    + hasPhone : boolean
+    + room_class : String
+    + getRoom_id() : String
+    + setRoom_id(id : String) : void
+    + getRoom_no() : String
+    + setRoom_no(no : String) : void
+    + getBed_number() : int
+    + setBed_number(bed : int) : void
+    + isHasTV() : boolean
+    + setHasTV(hasTV : boolean) : void
+    + isHasWIFI() : boolean
+    + setHasWIFI(hasWIFI : boolean) : void
+    + isHasGizer() : boolean
+    + setHasGizer(hasGizer : boolean) : void
+    + isHasPhone() : boolean
+    + setHasPhone(hasPhone : boolean) : void
+    + getRoom_class() : String
+    + setRoom_class(roomClass : String) : void
+}
+
+class RoomFare {
+    + room_type : String
+    + pricePerDay : double
+    + getRoom_type() : String
+    + setRoom_type(type : String) : void
+    + getPricePerDay() : double
+    + setPricePerDay(price : double) : void
+}
+
+class UserInfo {
+    + customer_id : String
+    + name : String
+    + address : String
+    + phone_no : String
+    + type : String
+    + getCustomer_id() : String
+    + setCustomer_id(id : String) : void
+    + getName() : String
+    + setName(name : String) : void
+    + getAddress() : String
+    + setAddress(address : String) : void
+    + getPhone_no() : String
+    + setPhone_no(phone : String) : void
+    + getType() : String
+    + setType(type : String) : void
+}
+
+' Relationships
+Booking --> UserInfo : "has/uses"
+ExtraOrders --> Item : "has/uses"
+ExtraOrders --> Booking : "related to"
+Payment --> Booking : "has/uses"
+Room --> RoomFare : "has/uses"
+Order --> Food : "uses"
+Order --> Booking : "related to"
+
+@enduml

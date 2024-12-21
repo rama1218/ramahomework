@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="1424px" preserveAspectRatio="none" style="width:1185px;height:1424px;background:#FFFFFF;" version="1.1" viewBox="0 0 1185 1424" width="1185px" zoomAndPan="magnify">
+    <defs/>
+    <g>
+        <!--class Booking-->
+        <g id="elem_Booking">
+            <rect codeLine="2" fill="#F1F1F1" height="470.625" id="Booking" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="287" x="294.5" y="556"/>
+            <ellipse cx="408.25" cy="572" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/>
+            <path d="M411.0156,567.875 Q411.1719,567.6563 411.3594,567.5469 Q411.5469,567.4375 411.7656,567.4375 Q412.1406,567.4375 412.375,567.7031 Q412.6094,567.9531 412.6094,568.5625 L412.6094,570.0156 Q412.6094,570.625 412.375,570.8906 Q412.1406,571.1563 411.7656,571.1563 Q411.4219,571.1563 411.2188,570.9531 Q411.0156,570.7656 410.9063,570.25 Q410.8594,569.8906 410.6719,569.7031 Q410.3438,569.3281 409.7344,569.1094 Q409.125,568.8906 408.5,568.8906 Q407.7344,568.8906 407.0938,569.2188 Q406.4688,569.5469 405.9688,570.2969 Q405.4844,571.0469 405.4844,572.0781 L405.4844,573.1719 Q405.4844,574.4063 406.375,575.2344 Q407.2656,576.0469 408.8594,576.0469 Q409.7969,576.0469 410.4531,575.7969 Q410.8438,575.6406 411.2656,575.2031 Q411.5313,574.9375 411.6719,574.8594 Q411.8281,574.7813 412.0313,574.7813 Q412.3594,574.7813 412.6094,575.0469 Q412.875,575.2969 412.875,575.6406 Q412.875,575.9844 412.5313,576.3906 Q412.0313,576.9688 411.2344,577.2969 Q410.1563,577.75 408.8594,577.75 Q407.3438,577.75 406.1406,577.125 Q405.1563,576.625 404.4688,575.5625 Q403.7813,574.4844 403.7813,573.2031 L403.7813,572.0469 Q403.7813,570.7188 404.3906,569.5781 Q405.0156,568.4219 406.1094,567.8125 Q407.2031,567.1875 408.4375,567.1875 Q409.1719,567.1875 409.8125,567.3594 Q410.4688,567.5156 411.0156,567.875 Z " fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="51" x="428.75" y="577.7285">Booking</text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="295.5" x2="580.5" y1="588" y2="588"/>
+            <ellipse cx="305.5" cy="602.3047" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="107" x="314.5" y="606.5332">customer : String</text>
+            <ellipse cx="305.5" cy="619.9141" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="118" x="314.5" y="624.1426">booking_id : String</text>
+            <ellipse cx="305.5" cy="637.5234" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="151" x="314.5" y="641.752">checkInDateTime : Date</text>
+            <ellipse cx="305.5" cy="655.1328" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="163" x="314.5" y="659.3613">checkOutDateTime : Date</text>
+            <ellipse cx="305.5" cy="672.7422" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="131" x="314.5" y="676.9707">bookingType : String</text>
+            <ellipse cx="305.5" cy="690.3516" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="71" x="314.5" y="694.5801">person : int</text>
+            <ellipse cx="305.5" cy="707.9609" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="124" x="314.5" y="712.1895">roomsFare : double</text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="295.5" x2="580.5" y1="719.2656" y2="719.2656"/>
+            <ellipse cx="305.5" cy="733.5703" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="149" x="314.5" y="737.7988">getBooking_id() : String</text>
+            <ellipse cx="305.5" cy="751.1797" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="197" x="314.5" y="755.4082">setBooking_id(id : String) : void</text>
+            <ellipse cx="305.5" cy="768.7891" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="162" x="314.5" y="773.0176">getBookingType() : String</text>
+            <ellipse cx="305.5" cy="786.3984" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="226" x="314.5" y="790.627">setBookingType(type : String) : void</text>
+            <ellipse cx="305.5" cy="804.0078" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="109" x="314.5" y="808.2363">addRoom() : void</text>
+            <ellipse cx="305.5" cy="821.6172" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="132" x="314.5" y="825.8457">removeRoom() : void</text>
+            <ellipse cx="305.5" cy="839.2266" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="102" x="314.5" y="843.4551">getPerson() : int</text>
+            <ellipse cx="305.5" cy="856.8359" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="183" x="314.5" y="861.0645">setPerson(person : int) : void</text>
+            <ellipse cx="305.5" cy="874.4453" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="108" x="314.5" y="878.6738">getRooms() : List</text>
+            <ellipse cx="305.5" cy="892.0547" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="159" x="314.5" y="896.2832">getRoomsFare() : double</text>
+            <ellipse cx="305.5" cy="909.6641" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="140" x="314.5" y="913.8926">getCustomer() : String</text>
+            <ellipse cx="305.5" cy="927.2734" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="235" x="314.5" y="931.502">setCustomer(customer : String) : void</text>
+            <ellipse cx="305.5" cy="944.8828" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="261" x="314.5" y="949.1113">setCheckOutDateTime(date : Date) : void</text>
+            <ellipse cx="305.5" cy="962.4922" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="184" x="314.5" y="966.7207">getCheckInDateTime() : Date</text>
+            <ellipse cx="305.5" cy="980.1016" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="249" x="314.5" y="984.3301">setCheckInDateTime(date : Date) : void</text>
+            <ellipse cx="305.5" cy="997.7109" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="196" x="314.5" y="1001.9395">getCheckOutDateTime() : Date</text>
+            <ellipse cx="305.5" cy="1015.3203" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="261" x="314.5" y="1019.5488">setCheckOutDateTime(date : Date) : void</text>
+        </g>
+        <!--class ExtraOrders-->
+        <g id="elem_ExtraOrders">
+            <rect codeLine="29" fill="#F1F1F1" height="329.75" id="ExtraOrders" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="233" x="13.5" y="77.5"/>
+            <ellipse cx="87.75" cy="93.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/>
+            <path d="M90.5156,89.375 Q90.6719,89.1563 90.8594,89.0469 Q91.0469,88.9375 91.2656,88.9375 Q91.6406,88.9375 91.875,89.2031 Q92.1094,89.4531 92.1094,90.0625 L92.1094,91.5156 Q92.1094,92.125 91.875,92.3906 Q91.6406,92.6563 91.2656,92.6563 Q90.9219,92.6563 90.7188,92.4531 Q90.5156,92.2656 90.4063,91.75 Q90.3594,91.3906 90.1719,91.2031 Q89.8438,90.8281 89.2344,90.6094 Q88.625,90.3906 88,90.3906 Q87.2344,90.3906 86.5938,90.7188 Q85.9688,91.0469 85.4688,91.7969 Q84.9844,92.5469 84.9844,93.5781 L84.9844,94.6719 Q84.9844,95.9063 85.875,96.7344 Q86.7656,97.5469 88.3594,97.5469 Q89.2969,97.5469 89.9531,97.2969 Q90.3438,97.1406 90.7656,96.7031 Q91.0313,96.4375 91.1719,96.3594 Q91.3281,96.2813 91.5313,96.2813 Q91.8594,96.2813 92.1094,96.5469 Q92.375,96.7969 92.375,97.1406 Q92.375,97.4844 92.0313,97.8906 Q91.5313,98.4688 90.7344,98.7969 Q89.6563,99.25 88.3594,99.25 Q86.8438,99.25 85.6406,98.625 Q84.6563,98.125 83.9688,97.0625 Q83.2813,95.9844 83.2813,94.7031 L83.2813,93.5469 Q83.2813,92.2188 83.8906,91.0781 Q84.5156,89.9219 85.6094,89.3125 Q86.7031,88.6875 87.9375,88.6875 Q88.6719,88.6875 89.3125,88.8594 Q89.9688,89.0156 90.5156,89.375 Z " fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="76" x="108.25" y="99.2285">ExtraOrders</text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="14.5" x2="245.5" y1="109.5" y2="109.5"/>
+            <ellipse cx="24.5" cy="123.8047" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="102" x="33.5" y="128.0332">order_id : String</text>
+            <ellipse cx="24.5" cy="141.4141" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="126" x="33.5" y="145.6426">customer_id : String</text>
+            <ellipse cx="24.5" cy="159.0234" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="101" x="33.5" y="163.252">dateTime : Date</text>
+            <ellipse cx="24.5" cy="176.6328" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="77" x="33.5" y="180.8613">quantity : int</text>
+            <ellipse cx="24.5" cy="194.2422" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="75" x="33.5" y="198.4707">item : String</text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="14.5" x2="245.5" y1="205.5469" y2="205.5469"/>
+            <ellipse cx="24.5" cy="219.8516" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="135" x="33.5" y="224.0801">getOrder_id() : String</text>
+            <ellipse cx="24.5" cy="237.4609" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="183" x="33.5" y="241.6895">setOrder_id(id : String) : void</text>
+            <ellipse cx="24.5" cy="255.0703" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="159" x="33.5" y="259.2988">getCustomer_id() : String</text>
+            <ellipse cx="24.5" cy="272.6797" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="207" x="33.5" y="276.9082">setCustomer_id(id : String) : void</text>
+            <ellipse cx="24.5" cy="290.2891" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="133" x="33.5" y="294.5176">getDateTime() : Date</text>
+            <ellipse cx="24.5" cy="307.8984" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="198" x="33.5" y="312.127">setDateTime(date : Date) : void</text>
+            <ellipse cx="24.5" cy="325.5078" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="110" x="33.5" y="329.7363">getQuantity() : int</text>
+            <ellipse cx="24.5" cy="343.1172" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="197" x="33.5" y="347.3457">setQuantity(quantity : int) : void</text>
+            <ellipse cx="24.5" cy="360.7266" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="105" x="33.5" y="364.9551">getItem() : String</text>
+            <ellipse cx="24.5" cy="378.3359" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="168" x="33.5" y="382.5645">setItem(item : String) : void</text>
+            <ellipse cx="24.5" cy="395.9453" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="153" x="33.5" y="400.1738">calculateTotal() : double</text>
+        </g>
+        <!--class Food-->
+        <g id="elem_Food">
+            <rect codeLine="48" fill="#F1F1F1" height="206.4844" id="Food" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="213" x="636.5" y="688.5"/>
+            <ellipse cx="722.25" cy="704.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/>
+            <path d="M725.0156,700.375 Q725.1719,700.1563 725.3594,700.0469 Q725.5469,699.9375 725.7656,699.9375 Q726.1406,699.9375 726.375,700.2031 Q726.6094,700.4531 726.6094,701.0625 L726.6094,702.5156 Q726.6094,703.125 726.375,703.3906 Q726.1406,703.6563 725.7656,703.6563 Q725.4219,703.6563 725.2188,703.4531 Q725.0156,703.2656 724.9063,702.75 Q724.8594,702.3906 724.6719,702.2031 Q724.3438,701.8281 723.7344,701.6094 Q723.125,701.3906 722.5,701.3906 Q721.7344,701.3906 721.0938,701.7188 Q720.4688,702.0469 719.9688,702.7969 Q719.4844,703.5469 719.4844,704.5781 L719.4844,705.6719 Q719.4844,706.9063 720.375,707.7344 Q721.2656,708.5469 722.8594,708.5469 Q723.7969,708.5469 724.4531,708.2969 Q724.8438,708.1406 725.2656,707.7031 Q725.5313,707.4375 725.6719,707.3594 Q725.8281,707.2813 726.0313,707.2813 Q726.3594,707.2813 726.6094,707.5469 Q726.875,707.7969 726.875,708.1406 Q726.875,708.4844 726.5313,708.8906 Q726.0313,709.4688 725.2344,709.7969 Q724.1563,710.25 722.8594,710.25 Q721.3438,710.25 720.1406,709.625 Q719.1563,709.125 718.4688,708.0625 Q717.7813,706.9844 717.7813,705.7031 L717.7813,704.5469 Q717.7813,703.2188 718.3906,702.0781 Q719.0156,700.9219 720.1094,700.3125 Q721.2031,699.6875 722.4375,699.6875 Q723.1719,699.6875 723.8125,699.8594 Q724.4688,700.0156 725.0156,700.375 Z " fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="33" x="742.75" y="710.2285">Food</text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="637.5" x2="848.5" y1="720.5" y2="720.5"/>
+            <ellipse cx="647.5" cy="734.8047" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="96" x="656.5" y="739.0332">food_id : String</text>
+            <ellipse cx="647.5" cy="752.4141" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="84" x="656.5" y="756.6426">name : String</text>
+            <ellipse cx="647.5" cy="770.0234" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="86" x="656.5" y="774.252">price : double</text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="637.5" x2="848.5" y1="781.3281" y2="781.3281"/>
+            <ellipse cx="647.5" cy="795.6328" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="131" x="656.5" y="799.8613">getFood_id() : String</text>
+            <ellipse cx="647.5" cy="813.2422" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="179" x="656.5" y="817.4707">setFood_id(id : String) : void</text>
+            <ellipse cx="647.5" cy="830.8516" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="115" x="656.5" y="835.0801">getName() : String</text>
+            <ellipse cx="647.5" cy="848.4609" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="187" x="656.5" y="852.6895">setName(name : String) : void</text>
+            <ellipse cx="647.5" cy="866.0703" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="117" x="656.5" y="870.2988">getPrice() : double</text>
+            <ellipse cx="647.5" cy="883.6797" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="185" x="656.5" y="887.9082">setPrice(price : double) : void</text>
+        </g>
+        <!--class Item-->
+        <g id="elem_Item">
+            <rect codeLine="60" fill="#F1F1F1" height="259.3125" id="Item" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="246" x="7" y="662"/>
+            <ellipse cx="112.75" cy="678" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/>
+            <path d="M115.5156,673.875 Q115.6719,673.6563 115.8594,673.5469 Q116.0469,673.4375 116.2656,673.4375 Q116.6406,673.4375 116.875,673.7031 Q117.1094,673.9531 117.1094,674.5625 L117.1094,676.0156 Q117.1094,676.625 116.875,676.8906 Q116.6406,677.1563 116.2656,677.1563 Q115.9219,677.1563 115.7188,676.9531 Q115.5156,676.7656 115.4063,676.25 Q115.3594,675.8906 115.1719,675.7031 Q114.8438,675.3281 114.2344,675.1094 Q113.625,674.8906 113,674.8906 Q112.2344,674.8906 111.5938,675.2188 Q110.9688,675.5469 110.4688,676.2969 Q109.9844,677.0469 109.9844,678.0781 L109.9844,679.1719 Q109.9844,680.4063 110.875,681.2344 Q111.7656,682.0469 113.3594,682.0469 Q114.2969,682.0469 114.9531,681.7969 Q115.3438,681.6406 115.7656,681.2031 Q116.0313,680.9375 116.1719,680.8594 Q116.3281,680.7813 116.5313,680.7813 Q116.8594,680.7813 117.1094,681.0469 Q117.375,681.2969 117.375,681.6406 Q117.375,681.9844 117.0313,682.3906 Q116.5313,682.9688 115.7344,683.2969 Q114.6563,683.75 113.3594,683.75 Q111.8438,683.75 110.6406,683.125 Q109.6563,682.625 108.9688,681.5625 Q108.2813,680.4844 108.2813,679.2031 L108.2813,678.0469 Q108.2813,676.7188 108.8906,675.5781 Q109.5156,674.4219 110.6094,673.8125 Q111.7031,673.1875 112.9375,673.1875 Q113.6719,673.1875 114.3125,673.3594 Q114.9688,673.5156 115.5156,673.875 Z " fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="26" x="133.25" y="683.7285">Item</text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="252" y1="694" y2="694"/>
+            <ellipse cx="18" cy="708.3047" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="94" x="27" y="712.5332">item_id : String</text>
+            <ellipse cx="18" cy="725.9141" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="118" x="27" y="730.1426">item_name : String</text>
+            <ellipse cx="18" cy="743.5234" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="118" x="27" y="747.752">description : String</text>
+            <ellipse cx="18" cy="761.1328" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="86" x="27" y="765.3613">price : double</text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="252" y1="772.4375" y2="772.4375"/>
+            <ellipse cx="18" cy="786.7422" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="124" x="27" y="790.9707">getItem_id() : String</text>
+            <ellipse cx="18" cy="804.3516" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="172" x="27" y="808.5801">setItem_id(id : String) : void</text>
+            <ellipse cx="18" cy="821.9609" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="148" x="27" y="826.1895">getItem_name() : String</text>
+            <ellipse cx="18" cy="839.5703" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="220" x="27" y="843.7988">setItem_name(name : String) : void</text>
+            <ellipse cx="18" cy="857.1797" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="150" x="27" y="861.4082">getDescription() : String</text>
+            <ellipse cx="18" cy="874.7891" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="217" x="27" y="879.0176">setDescription(desc : String) : void</text>
+            <ellipse cx="18" cy="892.3984" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="117" x="27" y="896.627">getPrice() : double</text>
+            <ellipse cx="18" cy="910.0078" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="185" x="27" y="914.2363">setPrice(price : double) : void</text>
+        </g>
+        <!--class Order-->
+        <g id="elem_Order">
+            <rect codeLine="75" fill="#F1F1F1" height="259.3125" id="Order" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="227" x="629.5" y="113"/>
+            <ellipse cx="720.25" cy="129" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/>
+            <path d="M723.0156,124.875 Q723.1719,124.6563 723.3594,124.5469 Q723.5469,124.4375 723.7656,124.4375 Q724.1406,124.4375 724.375,124.7031 Q724.6094,124.9531 724.6094,125.5625 L724.6094,127.0156 Q724.6094,127.625 724.375,127.8906 Q724.1406,128.1563 723.7656,128.1563 Q723.4219,128.1563 723.2188,127.9531 Q723.0156,127.7656 722.9063,127.25 Q722.8594,126.8906 722.6719,126.7031 Q722.3438,126.3281 721.7344,126.1094 Q721.125,125.8906 720.5,125.8906 Q719.7344,125.8906 719.0938,126.2188 Q718.4688,126.5469 717.9688,127.2969 Q717.4844,128.0469 717.4844,129.0781 L717.4844,130.1719 Q717.4844,131.4063 718.375,132.2344 Q719.2656,133.0469 720.8594,133.0469 Q721.7969,133.0469 722.4531,132.7969 Q722.8438,132.6406 723.2656,132.2031 Q723.5313,131.9375 723.6719,131.8594 Q723.8281,131.7813 724.0313,131.7813 Q724.3594,131.7813 724.6094,132.0469 Q724.875,132.2969 724.875,132.6406 Q724.875,132.9844 724.5313,133.3906 Q724.0313,133.9688 723.2344,134.2969 Q722.1563,134.75 720.8594,134.75 Q719.3438,134.75 718.1406,134.125 Q717.1563,133.625 716.4688,132.5625 Q715.7813,131.4844 715.7813,130.2031 L715.7813,129.0469 Q715.7813,127.7188 716.3906,126.5781 Q717.0156,125.4219 718.1094,124.8125 Q719.2031,124.1875 720.4375,124.1875 Q721.1719,124.1875 721.8125,124.3594 Q722.4688,124.5156 723.0156,124.875 Z " fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="37" x="740.75" y="134.7285">Order</text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="630.5" x2="855.5" y1="145" y2="145"/>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="630.5" x2="855.5" y1="153" y2="153"/>
+            <ellipse cx="640.5" cy="167.3047" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="127" x="649.5" y="171.5332">getOrderId() : String</text>
+            <ellipse cx="640.5" cy="184.9141" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="175" x="649.5" y="189.1426">setOrderId(id : String) : void</text>
+            <ellipse cx="640.5" cy="202.5234" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="141" x="649.5" y="206.752">getBookingId() : String</text>
+            <ellipse cx="640.5" cy="220.1328" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="189" x="649.5" y="224.3613">setBookingId(id : String) : void</text>
+            <ellipse cx="640.5" cy="237.7422" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="138" x="649.5" y="241.9707">getFoodItem() : String</text>
+            <ellipse cx="640.5" cy="255.3516" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="201" x="649.5" y="259.5801">setFoodItem(item : String) : void</text>
+            <ellipse cx="640.5" cy="272.9609" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="117" x="649.5" y="277.1895">getPrice() : double</text>
+            <ellipse cx="640.5" cy="290.5703" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="185" x="649.5" y="294.7988">setPrice(price : double) : void</text>
+            <ellipse cx="640.5" cy="308.1797" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="110" x="649.5" y="312.4082">getQuantity() : int</text>
+            <ellipse cx="640.5" cy="325.7891" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="197" x="649.5" y="330.0176">setQuantity(quantity : int) : void</text>
+            <ellipse cx="640.5" cy="343.3984" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="117" x="649.5" y="347.627">getTotal() : double</text>
+            <ellipse cx="640.5" cy="361.0078" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="181" x="649.5" y="365.2363">setTotal(total : double) : void</text>
+        </g>
+        <!--class Payment-->
+        <g id="elem_Payment">
+            <rect codeLine="90" fill="#F1F1F1" height="329.75" id="Payment" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="313" x="281.5" y="77.5"/>
+            <ellipse cx="406.25" cy="93.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/>
+            <path d="M409.0156,89.375 Q409.1719,89.1563 409.3594,89.0469 Q409.5469,88.9375 409.7656,88.9375 Q410.1406,88.9375 410.375,89.2031 Q410.6094,89.4531 410.6094,90.0625 L410.6094,91.5156 Q410.6094,92.125 410.375,92.3906 Q410.1406,92.6563 409.7656,92.6563 Q409.4219,92.6563 409.2188,92.4531 Q409.0156,92.2656 408.9063,91.75 Q408.8594,91.3906 408.6719,91.2031 Q408.3438,90.8281 407.7344,90.6094 Q407.125,90.3906 406.5,90.3906 Q405.7344,90.3906 405.0938,90.7188 Q404.4688,91.0469 403.9688,91.7969 Q403.4844,92.5469 403.4844,93.5781 L403.4844,94.6719 Q403.4844,95.9063 404.375,96.7344 Q405.2656,97.5469 406.8594,97.5469 Q407.7969,97.5469 408.4531,97.2969 Q408.8438,97.1406 409.2656,96.7031 Q409.5313,96.4375 409.6719,96.3594 Q409.8281,96.2813 410.0313,96.2813 Q410.3594,96.2813 410.6094,96.5469 Q410.875,96.7969 410.875,97.1406 Q410.875,97.4844 410.5313,97.8906 Q410.0313,98.4688 409.2344,98.7969 Q408.1563,99.25 406.8594,99.25 Q405.3438,99.25 404.1406,98.625 Q403.1563,98.125 402.4688,97.0625 Q401.7813,95.9844 401.7813,94.7031 L401.7813,93.5469 Q401.7813,92.2188 402.3906,91.0781 Q403.0156,89.9219 404.1094,89.3125 Q405.2031,88.6875 406.4375,88.6875 Q407.1719,88.6875 407.8125,88.8594 Q408.4688,89.0156 409.0156,89.375 Z " fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="55" x="426.75" y="99.2285">Payment</text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="282.5" x2="593.5" y1="109.5" y2="109.5"/>
+            <ellipse cx="292.5" cy="123.8047" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="113" x="301.5" y="128.0332">booking : Booking</text>
+            <ellipse cx="292.5" cy="141.4141" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="132" x="301.5" y="145.6426">payment_date : Date</text>
+            <ellipse cx="292.5" cy="159.0234" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="158" x="301.5" y="163.252">payment_method : String</text>
+            <ellipse cx="292.5" cy="176.6328" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="141" x="301.5" y="180.8613">hasDiscount : boolean</text>
+            <ellipse cx="292.5" cy="194.2422" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="108" x="301.5" y="198.4707">discount : double</text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="282.5" x2="593.5" y1="205.5469" y2="205.5469"/>
+            <ellipse cx="292.5" cy="219.8516" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="144" x="301.5" y="224.0801">getBooking() : Booking</text>
+            <ellipse cx="292.5" cy="237.4609" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="231" x="301.5" y="241.6895">setBooking(booking : Booking) : void</text>
+            <ellipse cx="292.5" cy="255.0703" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="163" x="301.5" y="259.2988">getPayment_date() : Date</text>
+            <ellipse cx="292.5" cy="272.6797" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="228" x="301.5" y="276.9082">setPayment_date(date : Date) : void</text>
+            <ellipse cx="292.5" cy="290.2891" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="189" x="301.5" y="294.5176">getPayment_method() : String</text>
+            <ellipse cx="292.5" cy="307.8984" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="273" x="301.5" y="312.127">setPayment_method(method : String) : void</text>
+            <ellipse cx="292.5" cy="325.5078" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="162" x="301.5" y="329.7363">isHasDiscount() : boolean</text>
+            <ellipse cx="292.5" cy="343.1172" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="287" x="301.5" y="347.3457">setHasDiscount(hasDiscount : boolean) : void</text>
+            <ellipse cx="292.5" cy="360.7266" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="140" x="301.5" y="364.9551">getDiscount() : double</text>
+            <ellipse cx="292.5" cy="378.3359" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="230" x="301.5" y="382.5645">setDiscount(discount : double) : void</text>
+            <ellipse cx="292.5" cy="395.9453" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="171" x="301.5" y="400.1738">calculateTotalBill() : double</text>
+        </g>
+        <!--class Room-->
+        <g id="elem_Room">
+            <rect codeLine="109" fill="#F1F1F1" height="470.625" id="Room" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="286" x="892" y="7"/>
+            <ellipse cx="1012.25" cy="23" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/>
+            <path d="M1015.0156,18.875 Q1015.1719,18.6563 1015.3594,18.5469 Q1015.5469,18.4375 1015.7656,18.4375 Q1016.1406,18.4375 1016.375,18.7031 Q1016.6094,18.9531 1016.6094,19.5625 L1016.6094,21.0156 Q1016.6094,21.625 1016.375,21.8906 Q1016.1406,22.1563 1015.7656,22.1563 Q1015.4219,22.1563 1015.2188,21.9531 Q1015.0156,21.7656 1014.9063,21.25 Q1014.8594,20.8906 1014.6719,20.7031 Q1014.3438,20.3281 1013.7344,20.1094 Q1013.125,19.8906 1012.5,19.8906 Q1011.7344,19.8906 1011.0938,20.2188 Q1010.4688,20.5469 1009.9688,21.2969 Q1009.4844,22.0469 1009.4844,23.0781 L1009.4844,24.1719 Q1009.4844,25.4063 1010.375,26.2344 Q1011.2656,27.0469 1012.8594,27.0469 Q1013.7969,27.0469 1014.4531,26.7969 Q1014.8438,26.6406 1015.2656,26.2031 Q1015.5313,25.9375 1015.6719,25.8594 Q1015.8281,25.7813 1016.0313,25.7813 Q1016.3594,25.7813 1016.6094,26.0469 Q1016.875,26.2969 1016.875,26.6406 Q1016.875,26.9844 1016.5313,27.3906 Q1016.0313,27.9688 1015.2344,28.2969 Q1014.1563,28.75 1012.8594,28.75 Q1011.3438,28.75 1010.1406,28.125 Q1009.1563,27.625 1008.4688,26.5625 Q1007.7813,25.4844 1007.7813,24.2031 L1007.7813,23.0469 Q1007.7813,21.7188 1008.3906,20.5781 Q1009.0156,19.4219 1010.1094,18.8125 Q1011.2031,18.1875 1012.4375,18.1875 Q1013.1719,18.1875 1013.8125,18.3594 Q1014.4688,18.5156 1015.0156,18.875 Z " fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="37" x="1032.75" y="28.7285">Room</text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="893" x2="1177" y1="39" y2="39"/>
+            <ellipse cx="903" cy="53.3047" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100" x="912" y="57.5332">room_id : String</text>
+            <ellipse cx="903" cy="70.9141" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="105" x="912" y="75.1426">room_no : String</text>
+            <ellipse cx="903" cy="88.5234" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="107" x="912" y="92.752">bed_number : int</text>
+            <ellipse cx="903" cy="106.1328" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="104" x="912" y="110.3613">hasTV : boolean</text>
+            <ellipse cx="903" cy="123.7422" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="114" x="912" y="127.9707">hasWIFI : boolean</text>
+            <ellipse cx="903" cy="141.3516" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="119" x="912" y="145.5801">hasGizer : boolean</text>
+            <ellipse cx="903" cy="158.9609" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="127" x="912" y="163.1895">hasPhone : boolean</text>
+            <ellipse cx="903" cy="176.5703" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="121" x="912" y="180.7988">room_class : String</text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="893" x2="1177" y1="187.875" y2="187.875"/>
+            <ellipse cx="903" cy="202.1797" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="135" x="912" y="206.4082">getRoom_id() : String</text>
+            <ellipse cx="903" cy="219.7891" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="183" x="912" y="224.0176">setRoom_id(id : String) : void</text>
+            <ellipse cx="903" cy="237.3984" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="140" x="912" y="241.627">getRoom_no() : String</text>
+            <ellipse cx="903" cy="255.0078" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="193" x="912" y="259.2363">setRoom_no(no : String) : void</text>
+            <ellipse cx="903" cy="272.6172" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="138" x="912" y="276.8457">getBed_number() : int</text>
+            <ellipse cx="903" cy="290.2266" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="199" x="912" y="294.4551">setBed_number(bed : int) : void</text>
+            <ellipse cx="903" cy="307.8359" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="125" x="912" y="312.0645">isHasTV() : boolean</text>
+            <ellipse cx="903" cy="325.4453" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="213" x="912" y="329.6738">setHasTV(hasTV : boolean) : void</text>
+            <ellipse cx="903" cy="343.0547" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="135" x="912" y="347.2832">isHasWIFI() : boolean</text>
+            <ellipse cx="903" cy="360.6641" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="233" x="912" y="364.8926">setHasWIFI(hasWIFI : boolean) : void</text>
+            <ellipse cx="903" cy="378.2734" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="140" x="912" y="382.502">isHasGizer() : boolean</text>
+            <ellipse cx="903" cy="395.8828" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="243" x="912" y="400.1113">setHasGizer(hasGizer : boolean) : void</text>
+            <ellipse cx="903" cy="413.4922" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="148" x="912" y="417.7207">isHasPhone() : boolean</text>
+            <ellipse cx="903" cy="431.1016" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="259" x="912" y="435.3301">setHasPhone(hasPhone : boolean) : void</text>
+            <ellipse cx="903" cy="448.7109" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="156" x="912" y="452.9395">getRoom_class() : String</text>
+            <ellipse cx="903" cy="466.3203" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="260" x="912" y="470.5488">setRoom_class(roomClass : String) : void</text>
+        </g>
+        <!--class RoomFare-->
+        <g id="elem_RoomFare">
+            <rect codeLine="136" fill="#F1F1F1" height="153.6563" id="RoomFare" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="258" x="906" y="714.5"/>
+            <ellipse cx="997.25" cy="730.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/>
+            <path d="M1000.0156,726.375 Q1000.1719,726.1563 1000.3594,726.0469 Q1000.5469,725.9375 1000.7656,725.9375 Q1001.1406,725.9375 1001.375,726.2031 Q1001.6094,726.4531 1001.6094,727.0625 L1001.6094,728.5156 Q1001.6094,729.125 1001.375,729.3906 Q1001.1406,729.6563 1000.7656,729.6563 Q1000.4219,729.6563 1000.2188,729.4531 Q1000.0156,729.2656 999.9063,728.75 Q999.8594,728.3906 999.6719,728.2031 Q999.3438,727.8281 998.7344,727.6094 Q998.125,727.3906 997.5,727.3906 Q996.7344,727.3906 996.0938,727.7188 Q995.4688,728.0469 994.9688,728.7969 Q994.4844,729.5469 994.4844,730.5781 L994.4844,731.6719 Q994.4844,732.9063 995.375,733.7344 Q996.2656,734.5469 997.8594,734.5469 Q998.7969,734.5469 999.4531,734.2969 Q999.8438,734.1406 1000.2656,733.7031 Q1000.5313,733.4375 1000.6719,733.3594 Q1000.8281,733.2813 1001.0313,733.2813 Q1001.3594,733.2813 1001.6094,733.5469 Q1001.875,733.7969 1001.875,734.1406 Q1001.875,734.4844 1001.5313,734.8906 Q1001.0313,735.4688 1000.2344,735.7969 Q999.1563,736.25 997.8594,736.25 Q996.3438,736.25 995.1406,735.625 Q994.1563,735.125 993.4688,734.0625 Q992.7813,732.9844 992.7813,731.7031 L992.7813,730.5469 Q992.7813,729.2188 993.3906,728.0781 Q994.0156,726.9219 995.1094,726.3125 Q996.2031,725.6875 997.4375,725.6875 Q998.1719,725.6875 998.8125,725.8594 Q999.4688,726.0156 1000.0156,726.375 Z " fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="67" x="1017.75" y="736.2285">RoomFare</text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="907" x2="1163" y1="746.5" y2="746.5"/>
+            <ellipse cx="917" cy="760.8047" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="116" x="926" y="765.0332">room_type : String</text>
+            <ellipse cx="917" cy="778.4141" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="133" x="926" y="782.6426">pricePerDay : double</text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="907" x2="1163" y1="789.7188" y2="789.7188"/>
+            <ellipse cx="917" cy="804.0234" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="151" x="926" y="808.252">getRoom_type() : String</text>
+            <ellipse cx="917" cy="821.6328" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="215" x="926" y="825.8613">setRoom_type(type : String) : void</text>
+            <ellipse cx="917" cy="839.2422" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="164" x="926" y="843.4707">getPricePerDay() : double</text>
+            <ellipse cx="917" cy="856.8516" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="232" x="926" y="861.0801">setPricePerDay(price : double) : void</text>
+        </g>
+        <!--class UserInfo-->
+        <g id="elem_UserInfo">
+            <rect codeLine="145" fill="#F1F1F1" height="312.1406" id="UserInfo" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="247" x="314.5" y="1105"/>
+            <ellipse cx="407.75" cy="1121" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/>
+            <path d="M410.5156,1116.875 Q410.6719,1116.6563 410.8594,1116.5469 Q411.0469,1116.4375 411.2656,1116.4375 Q411.6406,1116.4375 411.875,1116.7031 Q412.1094,1116.9531 412.1094,1117.5625 L412.1094,1119.0156 Q412.1094,1119.625 411.875,1119.8906 Q411.6406,1120.1563 411.2656,1120.1563 Q410.9219,1120.1563 410.7188,1119.9531 Q410.5156,1119.7656 410.4063,1119.25 Q410.3594,1118.8906 410.1719,1118.7031 Q409.8438,1118.3281 409.2344,1118.1094 Q408.625,1117.8906 408,1117.8906 Q407.2344,1117.8906 406.5938,1118.2188 Q405.9688,1118.5469 405.4688,1119.2969 Q404.9844,1120.0469 404.9844,1121.0781 L404.9844,1122.1719 Q404.9844,1123.4063 405.875,1124.2344 Q406.7656,1125.0469 408.3594,1125.0469 Q409.2969,1125.0469 409.9531,1124.7969 Q410.3438,1124.6406 410.7656,1124.2031 Q411.0313,1123.9375 411.1719,1123.8594 Q411.3281,1123.7813 411.5313,1123.7813 Q411.8594,1123.7813 412.1094,1124.0469 Q412.375,1124.2969 412.375,1124.6406 Q412.375,1124.9844 412.0313,1125.3906 Q411.5313,1125.9688 410.7344,1126.2969 Q409.6563,1126.75 408.3594,1126.75 Q406.8438,1126.75 405.6406,1126.125 Q404.6563,1125.625 403.9688,1124.5625 Q403.2813,1123.4844 403.2813,1122.2031 L403.2813,1121.0469 Q403.2813,1119.7188 403.8906,1118.5781 Q404.5156,1117.4219 405.6094,1116.8125 Q406.7031,1116.1875 407.9375,1116.1875 Q408.6719,1116.1875 409.3125,1116.3594 Q409.9688,1116.5156 410.5156,1116.875 Z " fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="52" x="428.25" y="1126.7285">UserInfo</text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="315.5" x2="560.5" y1="1137" y2="1137"/>
+            <ellipse cx="325.5" cy="1151.3047" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="126" x="334.5" y="1155.5332">customer_id : String</text>
+            <ellipse cx="325.5" cy="1168.9141" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="84" x="334.5" y="1173.1426">name : String</text>
+            <ellipse cx="325.5" cy="1186.5234" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100" x="334.5" y="1190.752">address : String</text>
+            <ellipse cx="325.5" cy="1204.1328" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="113" x="334.5" y="1208.3613">phone_no : String</text>
+            <ellipse cx="325.5" cy="1221.7422" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="76" x="334.5" y="1225.9707">type : String</text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="315.5" x2="560.5" y1="1233.0469" y2="1233.0469"/>
+            <ellipse cx="325.5" cy="1247.3516" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="159" x="334.5" y="1251.5801">getCustomer_id() : String</text>
+            <ellipse cx="325.5" cy="1264.9609" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="207" x="334.5" y="1269.1895">setCustomer_id(id : String) : void</text>
+            <ellipse cx="325.5" cy="1282.5703" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="115" x="334.5" y="1286.7988">getName() : String</text>
+            <ellipse cx="325.5" cy="1300.1797" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="187" x="334.5" y="1304.4082">setName(name : String) : void</text>
+            <ellipse cx="325.5" cy="1317.7891" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="131" x="334.5" y="1322.0176">getAddress() : String</text>
+            <ellipse cx="325.5" cy="1335.3984" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="219" x="334.5" y="1339.627">setAddress(address : String) : void</text>
+            <ellipse cx="325.5" cy="1353.0078" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="144" x="334.5" y="1357.2363">getPhone_no() : String</text>
+            <ellipse cx="325.5" cy="1370.6172" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="221" x="334.5" y="1374.8457">setPhone_no(phone : String) : void</text>
+            <ellipse cx="325.5" cy="1388.2266" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="111" x="334.5" y="1392.4551">getType() : String</text>
+            <ellipse cx="325.5" cy="1405.8359" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="175" x="334.5" y="1410.0645">setType(type : String) : void</text>
+        </g>
+        <!--link Booking to UserInfo-->
+        <g id="link_Booking_UserInfo">
+            <path codeLine="164" d="M438,1027.28 C438,1053.57 438,1073.84 438,1098.76 " fill="none" id="Booking-to-UserInfo" style="stroke:#181818;stroke-width:1.0;"/>
+            <polygon fill="#181818" points="438,1104.76,442,1095.76,438,1099.76,434,1095.76,438,1104.76" style="stroke:#181818;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="53" x="439" y="1071.4951">has/uses</text>
+        </g>
+        <!--link ExtraOrders to Item-->
+        <g id="link_ExtraOrders_Item">
+            <path codeLine="165" d="M130,407.62 C130,488.97 130,579.77 130,655.69 " fill="none" id="ExtraOrders-to-Item" style="stroke:#181818;stroke-width:1.0;"/>
+            <polygon fill="#181818" points="130,661.69,134,652.69,130,656.69,126,652.69,130,661.69" style="stroke:#181818;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="53" x="131" y="522.4951">has/uses</text>
+        </g>
+        <!--link ExtraOrders to Booking-->
+        <g id="link_ExtraOrders_Booking">
+            <path codeLine="166" d="M222.41,407.62 C248.68,454.27 274.8662,500.7818 302.9962,550.7418 " fill="none" id="ExtraOrders-to-Booking" style="stroke:#181818;stroke-width:1.0;"/>
+            <polygon fill="#181818" points="305.94,555.97,305.0099,546.1652,303.4869,551.6131,298.0389,550.0902,305.94,555.97" style="stroke:#181818;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="54" x="285" y="522.4951">related to</text>
+        </g>
+        <!--link Payment to Booking-->
+        <g id="link_Payment_Booking">
+            <path codeLine="167" d="M438,407.62 C438,454.27 438,500.01 438,549.97 " fill="none" id="Payment-to-Booking" style="stroke:#181818;stroke-width:1.0;"/>
+            <polygon fill="#181818" points="438,555.97,442,546.97,438,550.97,434,546.97,438,555.97" style="stroke:#181818;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="53" x="439" y="522.4951">has/uses</text>
+        </g>
+        <!--link Room to RoomFare-->
+        <g id="link_Room_RoomFare">
+            <path codeLine="168" d="M1035,478.25 C1035,563.01 1035,646.83 1035,708.27 " fill="none" id="Room-to-RoomFare" style="stroke:#181818;stroke-width:1.0;"/>
+            <polygon fill="#181818" points="1035,714.27,1039,705.27,1035,709.27,1031,705.27,1035,714.27" style="stroke:#181818;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="53" x="1036" y="522.4951">has/uses</text>
+        </g>
+        <!--link Order to Food-->
+        <g id="link_Order_Food">
+            <path codeLine="169" d="M743,372.09 C743,468.57 743,592.88 743,682.3 " fill="none" id="Order-to-Food" style="stroke:#181818;stroke-width:1.0;"/>
+            <polygon fill="#181818" points="743,688.3,747,679.3,743,683.3,739,679.3,743,688.3" style="stroke:#181818;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="28" x="744" y="522.4951">uses</text>
+        </g>
+        <!--link Order to Booking-->
+        <g id="link_Order_Booking">
+            <path codeLine="170" d="M671.3,372.09 C640.7,426.97 606.9218,487.5395 571.7918,550.5495 " fill="none" id="Order-to-Booking" style="stroke:#181818;stroke-width:1.0;"/>
+            <polygon fill="#181818" points="568.87,555.79,576.7463,549.877,571.3048,551.4229,569.7589,545.9813,568.87,555.79" style="stroke:#181818;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="54" x="592" y="522.4951">related to</text>
+        </g>
+        <!--SRC=[jLXTRzCm57tlhuZwGX6QUDy34cqfH4Aib38UAo_nLcj9N69deY3-E_w87SU-TYeOFA3Dnpc-zvphQtj5XHZBbfG-akOX-pNBnBzNMT4nJclSPjVP5zuAf1-_q_CEfFIHueYBnxnP8uxtfCO2bZ-wu4t7ORGdtPzFs6SzuPRHHeoIXlT3BQKrsw1MpYrfTrSPcWVCbpQynKkVYerW9m4vyucICg2H0QLu5CxTg3qgL9Ox4Ut26svnJPymX8YrjofZ1GmvCplk2X9-B3cP-lOZOTmRbvefp5TjrPiDvch1e2IyvULSp-P5ANxelGw3NOqhHgtkL0KBPqpJkOj7-ARY-psR5MfFlFl1MtJJba9nko-e_1Mg_buS02h1cl_UeOOJVXxPJ3Yk_Sz5PZVzeg0_5anMz6g8B-do9552tSji-jmd7bQuHSRQX1Iva0dCGW4Z4RsF2rGLNINZf1nLxcQmhcyeBQtTz-8NmD86rM6dQaa1jQIDfW3ZDLXIyK-eXhkG0aQX0Dr4HXLkUcQGSTJX7f2AMZMaie0QQXYIfCIiQCc94zMmBb8hrqj4tPrKApV1n2cQ2tHR3w63H2ukq_oF5gWDRZqmxI1FT8FyikCjJnwIKoIoTgCRqOAfpVZtsZndCmawWQNG29V_9-pPedED6suDwYypObulfAbuFU_WD4SFgJ4_qc1t7H5R4rRGJgnnBTahZ1gpmGOWSXDIYOq36InU1B423ZbX0pr_12Vx_dQK9LWrtXHF3u-Ii0-3Cefkh8tWSoU0CWBxtYNq2yA2WUx9OsP9AlYeaRSoMpVoMWiqLpNSqE0UZij3qzLtwZes5Bx8SdyRI256l-MR71f_JtugYW3O7cc30q15euCFhoaxdG5ehS6IBMMdSuqJ2CoH0cXiLfMm8JYO40_i1ggazhVHOXAG9p148AMEKYWmy0EYKSv4UJGQ6WWnAIkZJ1eD7O_OeyoFEwHXMIQhKPM4VLDELw-uqGRWq1jG7WBY-RD6Pw3HxSndyQ3ur3lDd4HwaVXvrEDJ9_PN9ixWvfu6h-aBhvBYsTZYS8kTf450Bu0qUyuh_pzTGD_gNC3l3URd2xZJfmuV6mOyzHKSOuc-vnCFUM7gYso7HJCNLprs92SsCtyhkRfwCrXzdSt57dhTCSpcC_VbA6Vb-XQKcB6q9_6ybOk93iNfV6Ok5zwKWKST8HArssa4wxkZnDMpHc3-U6JXFm00]-->
+    </g>
+</svg>
